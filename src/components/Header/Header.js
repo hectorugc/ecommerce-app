@@ -7,7 +7,11 @@ const Header = () => {
         <header className={styles.header}>
             <Container className={styles.headerContainer}>
             <p className={styles.headerTitle}>Shoesh&apos; Snkrs</p>
-                <p className={styles.headerCart}><FaShoppingCart/> 0.0</p>
+                <p className={styles.headerCart}>
+                    <button className="snipcart-checkout">
+                        <FaShoppingCart/> <span className="snipcart-total-price">$0.0</span>
+                    </button>
+                </p>
             </Container>
         </header>
     )
