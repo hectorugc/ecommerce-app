@@ -1,0 +1,56 @@
+[
+    {
+        "id":"nike-supreme-blue",
+        "title":"Nike F1",
+        "price":256.5,
+        "image":"/images/air-force-blue.jpeg"
+    },
+    {
+        "id":"air-force-supreme",
+        "title":"Nike Air Force Supreme",
+        "price":300.5,
+        "image":"/images/air-force-supreme.jpeg"
+    },
+    {
+        "id":"air-jordan-orange",
+        "title":"Air Jordan Orange",
+        "price":200.5,
+        "image":"/images/air-jordan-orange.jpeg"
+    },
+    {
+        "id":"nair-jordan-retro-1-blue",
+        "title":"Air Jordan Blue",
+        "price":500.5,
+        "image":"/images/air-jordan-retro-1-blue.jpeg"
+    },
+    {
+        "id":"forum-bad-bunny-black",
+        "title":"Forum Bad Bunny",
+        "price":256.5,
+        "image":"/images/forum-bad-bunny-black.jpeg"
+    },
+    {
+        "id":"forum-pink",
+        "title":"Forum Bad Buuny Pink",
+        "price":150,
+        "image":"/images/forum-pink.jpeg"
+    },
+    {
+        "id":"hu-black",
+        "title":"HU Black",
+        "price":256.5,
+        "image":"/images/hu-black.jpeg"
+    },
+    {
+        "id":"slides-yeezy",
+        "title":"Slides Yeezy",
+        "price":256.5,
+        "image":"/images/slides-yeezy.jpeg"
+    },
+    {
+        "id":"yeezy",
+        "title":"Yeezy",
+        "price":256.5,
+        "image":"/images/yeezy.jpeg"
+    }
+]
