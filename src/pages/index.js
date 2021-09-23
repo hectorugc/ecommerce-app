@@ -38,7 +38,7 @@ export default function Home({products}) {
                   <p className={styles.productsPrice}>{product.productPrice}</p>
                   <Button
                   className="snipcart-add-item"
-                  data-item-id={product.productsID}
+                  data-item-id={product.prodcutId}
                   data-item-price={product.productPrice}
                   data-item-url="/"
                   data-item-description=""
@@ -56,7 +56,7 @@ export default function Home({products}) {
        &copy; Shoesh Snkrs, {new Date().getFullYear()}
       </footer>
 
-
+      
       <Script  src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"></Script>
       <div hidden id="snipcart" data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY}></div>
     </div>
@@ -67,7 +67,7 @@ export default function Home({products}) {
 
 export async function getStaticProps() {
   const client = new ApolloClient({
-    uri: `${process.env.NEXT_PUBLIC_SNIPCART_API_KEY}/graphql`,
+    uri: 'http://ecommercenext.local/graphql',
     cache: new InMemoryCache()
   });
 
