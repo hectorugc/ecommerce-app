@@ -3,5 +3,5 @@ module.exports = {
   target:'serverless',
   images: {
     domains: ['ecommercenext.local'],
-  },
+  }
 }
