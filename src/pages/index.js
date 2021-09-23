@@ -55,6 +55,8 @@ export default function Home({products}) {
       <footer className={styles.footer}>
        &copy; Shoesh Snkrs, {new Date().getFullYear()}
       </footer>
+
+      
       <Script  src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"></Script>
       <div hidden id="snipcart" data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY}></div>
     </div>
