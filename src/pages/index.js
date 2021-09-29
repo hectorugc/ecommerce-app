@@ -26,8 +26,8 @@ export default function Home({products}) {
       <Header/>
       <main className={styles.main}>
         <Container>
-          <h1>Shoesh Snkrs</h1>
-          <h2>Available Shoes</h2>
+          <h1>Ecommerce Store</h1>
+          <h2>Available Products</h2>
           <ul className={styles.products}>
             {products.map(product => {
               const {featuredImage} = product
