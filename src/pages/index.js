@@ -67,7 +67,7 @@ export default function Home({products}) {
 
 export async function getStaticProps() {
   const client = new ApolloClient({
-    uri: 'http://ecommercenext.local/graphql',
+    uri: `${process.env.WEB_HOOK}graphql`,
     cache: new InMemoryCache()
   });
 
